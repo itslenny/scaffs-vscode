@@ -1,65 +1,23 @@
-# scaffolder README
+# Scaffs (VSCode plugin)
 
 This is the README for your extension "scaffolder". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Creates a context menu for easily generating files from scaffs (scaffolding template system)
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+The extension uses the scaffs npm module which reads from the `.scaffs-config.json` in the root of your project. For more details see the [scaffs documentation](https://github.com/itslenny/scaffs).
 
-For example:
+## Known issues
 
-This extension contributes the following settings:
+Issues are tracked on github [scaffs-vscode issues](https://github.com/itslenny/scaffs-vscode/issues).
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+## See also
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+* [scaffs github](https://github.com/itslenny/scaffs)
+* [scaffs-cli github](https://github.com/itslenny/scaffs-cli)
+* [scaffs npm](https://github.com/itslenny/scaffs)
+* [scaffs-cli npm](https://www.npmjs.com/package/scaffs-cli)
+* [scaffs-vscode github](https://www.npmjs.com/package/scaffs)
