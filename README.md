@@ -1,16 +1,12 @@
 # Scaffs (VSCode plugin)
 
-This is the README for your extension "scaffolder". After writing up a brief description, we recommend including the following sections.
+Creates a context menu for easily generating files from [scaffs](https://github.com/itslenny/scaffs) (scaffolding template system)
 
-## Features
-
-Creates a context menu for easily generating files from scaffs (scaffolding template system)
-
-## Extension Settings
+## Settings
 
 The extension uses the scaffs npm module which reads from the `.scaffs-config.json` in the root of your project. For more details see the [scaffs documentation](https://github.com/itslenny/scaffs).
 
-## Known issues
+## Issues
 
 Issues are tracked on github [scaffs-vscode issues](https://github.com/itslenny/scaffs-vscode/issues).
 
