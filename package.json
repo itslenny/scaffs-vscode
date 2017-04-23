@@ -47,6 +47,6 @@
   "dependencies": {
     "@types/fs-extra": "0.0.37",
     "fs-extra": "^2.0.0",
-    "scaffs": "^0.0.4"
+    "scaffs": "^0.0.6"
   }
 }
