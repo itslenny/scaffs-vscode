@@ -16,3 +16,8 @@ Issues are tracked on github [scaffs-vscode issues](https://github.com/itslenny/
 * [scaffs npm](https://github.com/itslenny/scaffs)
 * [scaffs-cli npm](https://www.npmjs.com/package/scaffs-cli)
 * [scaffs-vscode github](https://www.npmjs.com/package/scaffs)
+
+## TODO
+
+* Look for .scaffs-config in target directory and project root
+* investigate why scaffs path isn't working 

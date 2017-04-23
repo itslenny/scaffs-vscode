@@ -2,7 +2,7 @@
   "name": "scaffs-vscode",
   "displayName": "Scaffs",
   "description": "Automatically scaffold files based on templates",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "itslennysfault",
   "author": "Lenny Urbanowski",
   "license": "MIT",  
@@ -53,6 +53,6 @@
   "dependencies": {
     "@types/fs-extra": "0.0.37",
     "fs-extra": "^2.0.0",
-    "scaffs": "^0.0.6"
+    "scaffs": "^0.0.7"
   }
 }
