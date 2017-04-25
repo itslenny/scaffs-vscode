@@ -1,7 +1,8 @@
 # Change Log
 
 ## 1.2.x
-
+* 1.2.3
+    * fix bug finding target path on Windows
 * 1.2.2
     * update scaffs library
         * removes package.json from scaffs list

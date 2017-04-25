@@ -13,8 +13,12 @@ export function activate(context: vscode.ExtensionContext) {
     let disposable = vscode.commands.registerCommand('extension.scaffold', async fileInfo => {
 
         const projectPath = vscode.workspace.rootPath;
-        const scaffoldRoot = path.join(projectPath, '.scaffolder');
-        const creationPath = getClosestDirectory(fileInfo.path);
+        const creationPath = getClosestDirectory(fileInfo.fsPath || fileInfo.path);
+
+        if(!creationPath) {
+            vscode.window.showErrorMessage('Unable to find target directory.');
+            return;
+        }
 
         try {
             let scaffsConfig = await Scaffolder.loadScaffsConfig(projectPath);
@@ -78,9 +82,13 @@ function getTemplateVariables(scaffoldConfig: ScaffoldConfig): Promise<TemplateO
  * 
  * @param filePath - path to file to check
  */
-function getClosestDirectory(filePath: string): string {
-    let isDirectory = fs.statSync(filePath).isDirectory();
-    return isDirectory ? filePath : path.resolve(filePath, '..');
+function getClosestDirectory(filePath: string): string | null {
+    try {
+        let isDirectory = fs.statSync(filePath).isDirectory();
+        return isDirectory ? filePath : path.resolve(filePath, '..');
+    } catch (e) {
+        return null;
+    }
 }
 
 /**
