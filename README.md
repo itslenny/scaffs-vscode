@@ -1,6 +1,8 @@
 # Scaffs (VSCode plugin)
 
-Creates a context menu for easily generating files from [scaffs](https://github.com/itslenny/scaffs) (scaffolding template system)
+Creates a context menu for easily generating files from [scaffs](https://itslenny.github.io/scaffs/) (scaffolding template system)
+
+Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=itslennysfault.scaffs-vscode)
 
 ## Settings
 
