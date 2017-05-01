@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.3.0
+
+* Automatic discovery of registry scaffs (@scaffs)
+* Made .scaffs-config.json optional
+
 ## 1.2.x
 * 1.2.3
     * fix bug finding target path on Windows
