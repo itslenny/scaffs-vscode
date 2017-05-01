@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.4.0 - BREAKING CHANGE
+
+* Remove `header` (singular) from scaffs-config
+* Add `headers` to scaffs-config to allow different headers based on glob matchers
+* Minor version bump because no one is using this package yet
+
+
 ## 1.3.0
 
 * Automatic discovery of registry scaffs (@scaffs)
