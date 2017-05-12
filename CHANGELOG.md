@@ -47,3 +47,4 @@
 ## 1.0.0
 
 * Initial release
+* Scaffs Can Actually Fucking Fix Shit
