@@ -6,7 +6,7 @@ Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/item
 
 ## Examples
 
-The gifs below show an example of scaffolding basic projet from usinc a scaff from the [@scaffs registry](https://github.com/itslenny/scaffs-registry).
+The gifs below show a simple example of scaffolding basic project from using the angular scaff from the [@scaffs registry](https://github.com/itslenny/scaffs-registry). This particular example is angular, but scaffs can be created for anything.
 
 **Create Module**
 
