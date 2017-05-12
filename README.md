@@ -1,4 +1,4 @@
-# Scaffs (VSCode plugin)
+# ![Scaffs](https://raw.githubusercontent.com/itslenny/scaffs-vscode/master/docs/images/Logo_Full_64.png)-vscode
 
 Adds a context menu for easily generating files using [scaffs](https://itslenny.github.io/scaffs/) (scaffolding template system)
 
@@ -34,7 +34,6 @@ Issues are tracked on github [scaffs-vscode issues](https://github.com/itslenny/
 
 ## See also
 
-* [scaffs / scaffs-cli github](https://github.com/itslenny/scaffs)
-* [scaffs npm](https://github.com/itslenny/scaffs)
-* [scaffs-cli npm](https://www.npmjs.com/package/scaffs-cli)
+* [scaffs](https://github.com/itslenny/scaffs)
+* [scaffs cli](https://github.com/itslenny/scaffs-cli)
 * [@scaffs registry](https://github.com/itslenny/scaffs-registry)
