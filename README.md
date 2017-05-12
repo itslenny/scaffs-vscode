@@ -2,7 +2,7 @@
 
 Adds a context menu for easily generating files using [scaffs](https://itslenny.github.io/scaffs/) (scaffolding template system)
 
-Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=itslennysfault.scaffs-vscode)
+Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=itslennysfault.scaffs-vscode) or run the command (ctrl/⌘ + P): `ext install scaffs-vscode` 
 
 ## Examples
 
