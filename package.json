@@ -2,7 +2,7 @@
   "name": "scaffs-vscode",
   "displayName": "Scaffs",
   "description": "Automatically scaffold files based on templates",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "publisher": "itslennysfault",
   "author": "Lenny Urbanowski",
   "license": "MIT",  
