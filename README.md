@@ -28,12 +28,17 @@ The gifs below show a simple example of scaffolding basic project from using the
 
 The extension uses the scaffs npm module which reads from the `.scaffs-config.json` in the root of your project. For more details see the [scaffs documentation](https://github.com/itslenny/scaffs).
 
+## Additional resources
+
+* [Scaffs library / programmatic usage](https://github.com/itslenny/scaffs) | [npm](https://www.npmjs.com/package/scaffs)
+* [Scaffs cli / command line usage](https://github.com/itslenny/scaffs-cli) | [npm](https://www.npmjs.com/package/scaffs-cli)
+* [Scaffs vs code plugin](https://github.com/itslenny/scaffs-vscode) | [vs code marketplace](https://marketplace.visualstudio.com/items?itemName=itslennysfault.scaffs-vscode)
+* [@scaffs registry](https://github.com/itslenny/scaffs-registry) | [npm](https://www.npmjs.com/~scaffs)
+* [Using scaffs config](https://github.com/itslenny/scaffs/tree/master/docs/md/config.md)
+* [Creating scaffs](https://github.com/itslenny/scaffs/tree/master/docs/md/create.md)
+
 ## Issues
 
 Issues are tracked on github [scaffs-vscode issues](https://github.com/itslenny/scaffs-vscode/issues).
 
-## See also
 
-* [scaffs](https://github.com/itslenny/scaffs)
-* [scaffs cli](https://github.com/itslenny/scaffs-cli)
-* [@scaffs registry](https://github.com/itslenny/scaffs-registry)
